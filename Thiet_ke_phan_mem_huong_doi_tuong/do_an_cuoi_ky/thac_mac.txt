@@ -1,0 +1,6 @@
+hỏi cô:
+1. Nếu tên hàm là tiếng anh thì use case đặc tả là tiếng anh hết toàn bộ? (trong domain model)
+2.Trong system sequence diagram, ko có chọn được mũi tên đậm mà ko có ô, thay vào đó sử dụng mũi tên ko đậm có được không
+3. Nếu hàm là tiếng anh, nhưng use case là tiếng việt thì có nên đồng bộ hoá không => trong domain model
+4. nếu hàm có nhiều tham số quá thì được phép ghi "..." không => phải ghi rõ ràng
+5. tách hàm ra khỏi class là ko được

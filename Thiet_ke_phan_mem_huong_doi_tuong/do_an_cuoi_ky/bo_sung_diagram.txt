@@ -1,0 +1,17 @@
+1. Trong cart model, có getter getCartItemList
+2. Trong User model, viết thêm phương thức getAttributeUser("user")
+						getUserFromAttribute(attributeUser)
+   Trong GuestCart class dia, viết thêm phương thức getAttributeGuestCart("guestCart")
+					getGuestCartFromAttribute(attributeGuestCart)
+			viết thêm phương thức setCartItemList(List<CartItem>)
+3. Trong GuestCart model, có getter guestCart.getCartItemList
+4. trong OrderDetail model, viết thêm create() trả về new orderdetail
+5. Trong Order model, viết thêm create() trả về new order
+				trong class dia vẽ getOrderDetails() trả về List<OrderDetail>
+6. trong account model, viết thêm phương thức getAdminFromAttribute( attributeAdmin )
+
+7. trong các service, vì gộp controller nên có mấy cái hàm trùng nhau như delete, show, create
+
+
+
+	

@@ -1,0 +1,2 @@
+bám theo slide của cô
+khái thiệu tên -> mục lục -> khái niệm ->mục tiêu chính + trường hợp sử dụng (mỗi trường hợp sẽ giải quyết 1 vấn đề tương ứng) (ví dụ sắp nói sẽ thuộc trường hợp nào) -> ví dụ -> ý nghĩa -> kiến trúc (class diagram) -> ap dung (code, ko giải thích từng dòng code, mà là giải thích cách áp dụng phương pháp đó vào code) -> kết quả sau khi ứng dụng phương pháp -> ưu nhược điểm -> lưu ý khi áp dụng

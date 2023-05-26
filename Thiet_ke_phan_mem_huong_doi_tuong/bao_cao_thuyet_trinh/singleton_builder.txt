@@ -1,0 +1,20 @@
+cách học design pattern:
+	xem context (vấn đề gặp là gì), uml, code example
+	giải quyết vấn đề gì
+	học tìm hiểu pattern trong framework
+	áp dụng vào thực tế
+
+				singleton:
+1. singleton là một cái mẫu để ta có thể tạo ra 1 thứ như thế này: chúng ta chỉ có 1 class, và chúng ta chỉ muốn nó tồn tại một vài cái mục instance của cái class đấy ở trong cái ứng dụng của chúng ta, và đồng thời chúng ta muốn cho nó một cái quyền truy cập toàn cục, có nghĩa là ở đâu cũng có thể xài
+2. trường hợp sử dụng tốt nhất 
+	logging: dùng để lưu lại lịch sử người dùng, hành vi người dùng vì chúng ta chỉ cần 1 object log thôi, và nó có thể chạy bất kỳ đâu mà chúng ta mong muốn và có thể chạy đi chạy lại nhiều lần vì phần log này ko ảnh hưởng đến data ứng dụng
+	config file: khi chúng ta chạy ứng dụng thường có những cái file config, những file config mình hay lưu nó vào một biến singleton tại vì mình muốn một cái ứng dụng của mình nó chỉ có 1 cái collection của config
+	catching: 
+	global resource
+
+
+				builder:
+1. là partern chia nhỏ constructor của chúng ta ra nhiều phần nhỏ hơn, và cho chúng ta khả năng khỏi tạo ra một object bằng những hướng khác nhau
+ ví dụ thôgn tin 1 của người khách đi máy bay là họ tên, giới tính, ngày sinh, chứng minh nhân dân, passport,...
+	quá nhiều parameter và khó phân biệt kiểu dữ liệu giữa các parameter này  
+=> sử dụng buider partern

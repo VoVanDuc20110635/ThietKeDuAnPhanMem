@@ -1,0 +1,122 @@
+Thay đổi mật khẩu
+	ExFlow1
+	showForgotPassword()
+	processForgotPassword(email)
+	processPasswordReset(token, password)
+
+Xem giỏ hàng
+	showCart()
+
+Thêm sản phẩm vào giỏ hàng
+	addCart()
+
+Loại bỏ sản phẩm khỏi giỏ hàng
+	removeCartItem()
+
+Xem danh sách sản phẩm theo từng loại sản phẩm
+	showProductsByCategory()
+
+Xem danh sách sản phẩm theo từng loại hương vị
+	showProductsByFlavor()
+
+Xem danh sách sản phẩm theo cách sắp xếp
+	showProductsByCategory(id, sortType, page)
+
+Đặt hàng
+	show()
+	show(orderId)
+	placeOrder(email, phone, city, zip, paymentMethod address)
+	makeInvoice(orderId)
+
+Xem đơn hàng, xem hoá đơn
+	showProfile()
+	showBilling()
+	show(orderID)
+
+Huỷ bỏ đơn hàng
+	cancel(id)
+	
+Xem chi tiết sản phẩm
+	product(id)
+
+Tra cứu sản phẩm
+	showSearchPage(name, sortType, page)
+
+Xem hồ sơ người sử dụng
+	showProfile()
+
+Chỉnh sửa hồ sơ
+	showProfile()
+	processProfile(id, updatedUser)
+
+Thao tác với tài khoản
+	Xem danh sách tài khoản
+		show(sortType, page)
+	Thêm tài khoản
+		create(account)
+	Chỉnh sửa tài khoản
+		update(account)
+	Xoá tài khoản
+		delete(id)
+
+Thao tác với sản phẩm
+	Xem sản phẩm
+		show(sortType, page)
+	Thêm sản phẩm
+		create(product)
+	Chỉnh sửa sản phẩm
+		update(product)
+	Xoá sản phẩm
+		delete(id)
+
+Thao tác với danh mục sản phẩm
+	Xem danh mục sản phẩm
+		show(sortType, page)
+	Thêm danh mục sản phẩm
+		create(category)
+	Chỉnh sửa danh mục sản phẩm
+		update(category)
+	Xoá danh mục sản phẩm
+		delete(id)
+
+Thao tác với hương vị sản phẩm
+	Xem danh sách hương vị
+		show(sortType, page)
+	Thêm hương vị
+		create(flavor)
+	Chỉnh sửa hương vị
+		update(flavor)
+	Xoá hương vị
+		delete(id)
+
+Đăng nhập vai trò quản trị viên
+	show()
+	login(accountName, password)
+
+Thao tác với đơn hàng
+	Xem danh sách đơn hàng
+		show(sortType, page)
+	Chỉnh sửa đơn hàng
+		update(order)
+	Xoá đơn hàng
+		delete(id)
+
+Quản lý thông tin nhân viên
+	Xem danh sách nhân viên
+		show(sortType, page)
+	Thêm nhân viên
+		create(staff)
+	Chỉnh sửa nhân viên
+		update(staff)
+	Xoá nhân viên
+		delete(id)
+
+Quản lý thông tin khách hàng
+	Xem danh sách khách hàng
+		show(sortType, page)
+	Thêm khách hàng
+		create(user)
+	Chỉnh sửa khách hàng
+		update(user)
+	Xoá khách hàng
+		delete(id)
